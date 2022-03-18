@@ -252,6 +252,25 @@
     background: grey;
     width: 100%;
     height: 25vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.vid {
+    align-items: center;
+    width: 32%;
+    padding: 0 65px;
+   border: none;
+   border-radius: 10px;
+}
+video {
+    width: 300px;
+    height: 350px;
+    
+}
+.videos {
+    max-width: 1170px;
+    /* background-color: red; */
+    margin: auto;
 }
 
 /* footer */
@@ -293,7 +312,7 @@ ul {
     content: '';
     position: absolute;
     left: 0;
-    width: 50px;
+    width: 70px;
     bottom: -10px;
     background-color: #e91e63;
     height: 2px;
